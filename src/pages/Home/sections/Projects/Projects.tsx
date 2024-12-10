@@ -6,8 +6,6 @@ const Projects = () => {
   
     const StyledProjects = styled("div") (({theme})=> ({
         backgroundColor: theme.palette.primary.main,
-
-        
     }))
 
     const StyledImg = styled("img") (({  })=> ({
