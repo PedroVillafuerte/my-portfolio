@@ -26,12 +26,12 @@ const Footer = () => {
         <Container>
           <Grid container display={'flex'} alignItems={'center'} justifyContent={'center'} textAlign={'center'} pb={2}>
             <Grid item xs={12} md={4}>
-              <StyledLink href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+              <StyledLink href="https://www.linkedin.com/in/pedro-villafuerte-9bb7b5215/" target="_blank" rel="noopener noreferrer">
                 <LinkedInIcon />
               </StyledLink>
             </Grid>
             <Grid item xs={12} md={4}>
-              <StyledLink href="https://github.com/" target="_blank" rel="noopener noreferrer">
+              <StyledLink href="https://github.com/PedroVillafuerte" target="_blank" rel="noopener noreferrer">
                 <GitHubIcon />
               </StyledLink>
             </Grid>
