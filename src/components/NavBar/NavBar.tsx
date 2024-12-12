@@ -1,9 +1,11 @@
-import { AppBar, MenuItem, styled, Toolbar, Typography } from "@mui/material"
+import { AppBar, MenuItem, styled, Toolbar } from "@mui/material"
+import theme from "../../theme"
 
 const NavBar = () => {
     const StyledToolbar = styled(Toolbar) (({})=> ({
         display: "flex",
-        justifyContent: "space-evenly"
+        justifyContent: "space-evenly",
+        backgroundColor: `${theme.palette.primary.dark}`
     }))
 
     
