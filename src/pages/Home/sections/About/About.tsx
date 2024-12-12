@@ -12,7 +12,7 @@ const About = () => {
 
   return (
     <>
-    <StyledAbout>
+    <StyledAbout id="about">
     <Container maxWidth="lg">
         <Grid container spacing={2}>
           <Grid item xs={12} md={12} borderBottom={1} paddingBottom={10} color="primary.contrastText">
