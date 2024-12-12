@@ -4,6 +4,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
+import resume from '../../../../assets/PedroCurriculo.pdf'
 
 const Hero = () => {
 
@@ -47,7 +48,14 @@ const Hero = () => {
             <Typography color="primary.contrastText" variant="h2" textAlign="center">I`m a Software Engineer</Typography>
             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={12} md={4} display="flex" justifyContent="center">
-              <StyledButton onClick={()=> console.log("download")}>
+              <StyledButton onClick={()=> {
+                const link = document.createElement('a')
+                link.href = resume
+                link.download = 'Curriculo-PedroVillafuerte.pdf'
+                document.body.appendChild(link)
+                link.click()
+                document.body.removeChild(link)
+              }}>
               <DownloadIcon/> 
               <Typography>
                 Download CV
