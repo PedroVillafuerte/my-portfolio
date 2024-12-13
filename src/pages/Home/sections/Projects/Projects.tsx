@@ -6,6 +6,13 @@ const Projects = () => {
   
     const StyledProjects = styled("div") (({theme})=> ({
         backgroundColor: theme.palette.primary.main,
+        [theme.breakpoints.up('xs')]: {
+          paddingTop: "50px",
+          paddingBottom: "50px",
+        },
+        [theme.breakpoints.up('md')]: {
+          paddingTop: "0",
+        }
     }))
 
     return (
@@ -21,6 +28,7 @@ const Projects = () => {
             buttons={[
                 {label: 'View Project', link: 'https://www.google.com/'},
                 {label: 'View Code', link: 'https://github.com/'},
+                {label: 'View Code', link: 'mailto:pedro.tvilla@gmail.com?subject=Assunto%20do%20seu%20email&body=Olá%20Pedro,%20tudo%20bem%20%3F"'},
             ]}
             >
             </Project>

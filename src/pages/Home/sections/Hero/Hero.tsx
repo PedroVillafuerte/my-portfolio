@@ -13,8 +13,8 @@ const Hero = () => {
         display: "flex",
         alignItems: "center",
         [theme.breakpoints.up('xs')]: {
-          paddingTop: "100px",
-          paddingBottom: "100px",
+          paddingTop: "50px",
+          paddingBottom: "50px",
         },
         [theme.breakpoints.up('md')]: {
           paddingTop: "0",
@@ -31,7 +31,7 @@ const Hero = () => {
     return (
       <>
         <StyledHero id="hero">
-          <Container maxWidth="lg">
+          <Container maxWidth="lg" >
         <Grid container spacing={2}>
           <Grid item xs={12} md={5}>
             <Box position="relative">
@@ -64,7 +64,14 @@ const Hero = () => {
               </StyledButton>
             </Grid>
             <Grid item xs={12} md={4} display="flex" justifyContent="center">
-            <StyledButton onClick={()=> console.log("contact")}>
+            <StyledButton onClick={()=> {
+                const link = document.createElement('a')
+                link.href = 'https://mail.google.com/mail/#compose&to=morgan@example.com'
+                link.target="_blank"
+                document.body.appendChild(link)
+                link.click()
+                document.body.removeChild(link)
+                }}>
               <EmailIcon/>
               <Typography>
               Contact me

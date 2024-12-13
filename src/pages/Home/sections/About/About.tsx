@@ -8,7 +8,8 @@ const About = () => {
         display: "flex",
         alignItems: "center",
         [theme.breakpoints.up('xs')]: {
-          paddingTop: "100px",
+          paddingTop: "50px",
+          paddingBottom: "50px",
         },
         [theme.breakpoints.up('md')]: {
           paddingTop: "0",
