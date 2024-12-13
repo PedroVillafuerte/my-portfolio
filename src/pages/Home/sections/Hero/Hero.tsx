@@ -10,14 +10,15 @@ const Hero = () => {
 
     const StyledHero = styled("div") (({theme})=> ({
         backgroundColor: theme.palette.primary.main,
-        height: "100vh",
         display: "flex",
         alignItems: "center",
         [theme.breakpoints.up('xs')]: {
           paddingTop: "100px",
+          paddingBottom: "100px",
         },
         [theme.breakpoints.up('md')]: {
           paddingTop: "0",
+          height: "100vh"
         }
     }))
 
@@ -45,7 +46,7 @@ const Hero = () => {
           </Grid>
           <Grid item xs={12} md={7}>
             <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Pedro Villafuerte</Typography>
-            <Typography color="primary.contrastText" variant="h2" textAlign="center">I`m a Software Engineer</Typography>
+            <Typography color="primary.contrastText" variant="h2" textAlign="center"  >I`m a Software Engineer</Typography>
             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={12} md={4} display="flex" justifyContent="center">
               <StyledButton onClick={()=> {
