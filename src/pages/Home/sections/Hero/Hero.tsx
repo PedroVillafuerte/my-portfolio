@@ -66,7 +66,7 @@ const Hero = () => {
             <Grid item xs={12} md={4} display="flex" justifyContent="center">
             <StyledButton onClick={()=> {
                 const link = document.createElement('a')
-                link.href = 'https://mail.google.com/mail/#compose&to=morgan@example.com'
+                link.href = 'https://mail.google.com/mail/u/0/?fs=1&to=pedro.tvilla@gmail.com&body=Olá,&tf=cm'
                 link.target="_blank"
                 document.body.appendChild(link)
                 link.click()
