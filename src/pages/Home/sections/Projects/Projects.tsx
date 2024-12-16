@@ -22,13 +22,12 @@ const Projects = () => {
       <Grid container spacing={2} display={"flex"} justifyContent={"center"}>
           <Grid item xs={12} md={4} textAlign="center" border={1} borderColor={"white"} margin={5} padding={"16px"}>
             <Project 
-            name="CRUD em React"
+            name="Portfolio em React"
             image={placeHolder}
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae cum accusantium inventore porro cupiditate natus atque tempore doloribus? Quae laudantium facere consequuntur ea aliquam reiciendis corrupti, ut maxime quam exercitationem."
+            description="Para esse projeto usei ..."
             buttons={[
-                {label: 'View Project', link: 'https://www.google.com/'},
-                {label: 'View Code', link: 'https://github.com/'},
-                {label: 'View Code', link: 'mailto:pedro.tvilla@gmail.com?subject=Assunto%20do%20seu%20email&body=Olá%20Pedro,%20tudo%20bem%20%3F"'},
+                {label: 'View Project', link: 'https://pedrovillafuerte.vercel.app/'},
+                {label: 'View Code', link: 'https://github.com/PedroVillafuerte/my-portfolio'},
             ]}
             >
             </Project>
@@ -36,7 +35,7 @@ const Projects = () => {
           
           <Grid item xs={12} md={4} textAlign="center" border={1} borderColor={"white"} margin={5} padding={"16px"}>
           <Project 
-            name="Projeto 2"
+            name="CRUD usando REACT"
             image={placeHolder}
             description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae cum accusantium inventore porro cupiditate natus atque tempore doloribus? Quae laudantium facere consequuntur ea aliquam reiciendis corrupti, ut maxime quam exercitationem."
             buttons={[
