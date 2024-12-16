@@ -1,0 +1,24 @@
+{
+    "translation": {
+        "navMain": "Main",
+        "navAbout": "About",
+        "navProjects": "Projects",
+        "heroH2": "I`m a Software Engineer",
+        "heroButtonDownload": "Download CV",
+        "heroButtonContact": "Contact me",
+        "aboutTittle": "About me",
+        "aboutText": "Hello! My name is Pedro Teixeira Villafuerte, and I am a programming student. Throughout my academic journey, I have had the opportunity to learn various programming languages, such as Python, JavaScript, and Java, as well as delve into essential concepts like algorithms, data structures, databases, and web development.",
+        "skillsTittle": "Skills",
+        "projectsTittle": "Projects",
+        "projectsButtonViewProject": "View Project",
+        "projectsButtonViewCode": "View Code",
+        "project1Tittle": "Portfolio",
+        "project1Text": "Project made with React, Material UI library and i18n library.",
+        "project2Tittle": "CRUD",
+        "project2Text": "Project under development.",
+        "project3Tittle": "Project 3",
+        "project3Text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae cum accusantium inventore porro cupiditate natus atque tempore doloribus? Quae laudantium facere consequuntur ea aliquam reiciendis corrupti, ut maxime quam exercitationem.",
+        "project4Tittle": "Project 4",
+        "project4Text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae cum accusantium inventore porro cupiditate natus atque tempore doloribus? Quae laudantium facere consequuntur ea aliquam reiciendis corrupti, ut maxime quam exercitationem."
+    }
+}

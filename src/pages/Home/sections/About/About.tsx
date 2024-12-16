@@ -1,7 +1,10 @@
 import { Container, Grid, styled, Typography } from "@mui/material"
 import SkillsButton from "../../../../components/SkillsButton/SkillsButton"
+import { useTranslation } from "react-i18next"
 
 const About = () => {
+
+  const{t} = useTranslation();
   
     const StyledAbout = styled("div") (({theme})=> ({
         backgroundColor: theme.palette.primary.light,
@@ -23,12 +26,12 @@ const About = () => {
     <Container maxWidth="lg">
         <Grid container spacing={2} >
           <Grid item xs={12} md={12} borderBottom={1} paddingBottom={10} color="primary.contrastText" >
-          <Typography color="primary.contrastText" variant="h2" textAlign="center" pb={2}>About me</Typography>
-          <Typography color="primary.contrastText" variant="h5" textAlign="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae cum accusantium inventore porro cupiditate natus atque tempore doloribus? Quae laudantium facere consequuntur ea aliquam reiciendis corrupti, ut maxime quam exercitationem.</Typography>
+          <Typography color="primary.contrastText" variant="h2" textAlign="center" pb={2}>{t("aboutTittle")}</Typography>
+          <Typography color="primary.contrastText" variant="h5" textAlign="center">{t("aboutText")}</Typography>
             
           </Grid>
           <Grid item xs={12} md={12} marginTop={5}>
-          <Typography color="primary.contrastText" variant="h2" textAlign="center" pb={2}>Skills</Typography>
+          <Typography color="primary.contrastText" variant="h2" textAlign="center" pb={2}>{t("skillsTittle")}</Typography>
           <Grid item xs={12} md={12} display="flex" justifyContent="center">
             <SkillsButton >
               <Typography>

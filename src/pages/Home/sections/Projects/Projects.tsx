@@ -1,8 +1,10 @@
 import { Grid, styled, Typography } from "@mui/material"
 import placeHolder from "../../../../assets/images/placeHolder.png"
 import Project from "../../../../components/Project/Project"
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+  const{t} = useTranslation();
   
     const StyledProjects = styled("div") (({theme})=> ({
         backgroundColor: theme.palette.primary.main,
@@ -18,16 +20,16 @@ const Projects = () => {
     return (
       <>
       <StyledProjects id="projects">
-      <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2} pt={2}>Projects</Typography>
+      <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2} pt={2}>{t("projectsTittle")}</Typography>
       <Grid container spacing={2} display={"flex"} justifyContent={"center"}>
           <Grid item xs={12} md={4} textAlign="center" border={1} borderColor={"white"} margin={5} padding={"16px"}>
             <Project 
-            name="Portfolio em React"
+            name={t("project1Tittle")}
             image={placeHolder}
-            description="Para esse projeto usei ..."
+            description={t("project1Text")}
             buttons={[
-                {label: 'View Project', link: 'https://pedrovillafuerte.vercel.app/'},
-                {label: 'View Code', link: 'https://github.com/PedroVillafuerte/my-portfolio'},
+                {label: t("projectsButtonViewProject"), link: 'https://pedrovillafuerte.vercel.app/'},
+                {label: t("projectsButtonViewCode"), link: 'https://github.com/PedroVillafuerte/my-portfolio'},
             ]}
             >
             </Project>
@@ -35,12 +37,12 @@ const Projects = () => {
           
           <Grid item xs={12} md={4} textAlign="center" border={1} borderColor={"white"} margin={5} padding={"16px"}>
           <Project 
-            name="CRUD usando REACT"
+            name={t("project2Tittle")}
             image={placeHolder}
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae cum accusantium inventore porro cupiditate natus atque tempore doloribus? Quae laudantium facere consequuntur ea aliquam reiciendis corrupti, ut maxime quam exercitationem."
+            description={t("project2Text")}
             buttons={[
-                {label: 'View Project', link: 'https://www.google.com/'},
-                {label: 'View Code', link: 'https://github.com/'},
+                {label: t("projectsButtonViewProject"), link: 'https://www.google.com/'},
+                {label: t("projectsButtonViewCode"), link: 'https://github.com/'},
             ]}
             >
             </Project>
@@ -48,24 +50,24 @@ const Projects = () => {
           
           <Grid item xs={12} md={4} textAlign="center" border={1} borderColor={"white"} margin={5} padding={"16px"}>
           <Project 
-            name="Projeto 3"
+            name={t("project3Tittle")}
             image={placeHolder}
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae cum accusantium inventore porro cupiditate natus atque tempore doloribus? Quae laudantium facere consequuntur ea aliquam reiciendis corrupti, ut maxime quam exercitationem."
+            description={t("project3Text")}
             buttons={[
-                {label: 'View Project', link: 'https://www.google.com/'},
-                {label: 'View Code', link: 'https://github.com/'},
+                {label: t("projectsButtonViewProject"), link: 'https://www.google.com/'},
+                {label: t("projectsButtonViewCode"), link: 'https://github.com/'},
             ]}
             >
             </Project>
             </Grid>
             <Grid item xs={12} md={4} textAlign="center" border={1} borderColor={"white"} margin={5} padding={"16px"}>
           <Project 
-            name="Projeto 4"
+            name={t("project4Tittle")}
             image={placeHolder}
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae cum accusantium inventore porro cupiditate natus atque tempore doloribus? Quae laudantium facere consequuntur ea aliquam reiciendis corrupti, ut maxime quam exercitationem."
+            description={t("project4Text")}
             buttons={[
-                {label: 'View Project', link: 'https://www.google.com/'},
-                {label: 'View Code', link: 'https://github.com/'},
+                {label: t("projectsButtonViewProject"), link: 'https://www.google.com/'},
+                {label: t("projectsButtonViewCode"), link: 'https://github.com/'},
             ]}
             >
             </Project>

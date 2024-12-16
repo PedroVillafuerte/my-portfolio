@@ -5,8 +5,11 @@ import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
 import resume from '../../../../assets/PedroCurriculo.pdf'
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+
+  const{t} = useTranslation();
 
     const StyledHero = styled("div") (({theme})=> ({
         backgroundColor: theme.palette.primary.main,
@@ -25,7 +28,10 @@ const Hero = () => {
     const StyledImg = styled("img") (({ theme })=> ({
         width: "80%",
         borderRadius: "50%",
-        border: `1px solid ${theme.palette.primary.contrastText}`
+        border: `1px solid ${theme.palette.primary.contrastText}`,
+        [theme.breakpoints.up('xs')]: {
+          width: "75%",
+        }
     }))
 
     return (
@@ -46,7 +52,7 @@ const Hero = () => {
           </Grid>
           <Grid item xs={12} md={7}>
             <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Pedro Villafuerte</Typography>
-            <Typography color="primary.contrastText" variant="h2" textAlign="center"  >I`m a Software Engineer</Typography>
+            <Typography color="primary.contrastText" variant="h2" textAlign="center"  >{t("heroH2")}</Typography>
             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
             <Grid item xs={12} md={4} display="flex" justifyContent="center">
               <StyledButton onClick={()=> {
@@ -59,7 +65,7 @@ const Hero = () => {
               }}>
               <DownloadIcon/> 
               <Typography>
-                Download CV
+              {t("heroButtonDownload")}
                 </Typography>
               </StyledButton>
             </Grid>
@@ -74,7 +80,7 @@ const Hero = () => {
                 }}>
               <EmailIcon/>
               <Typography>
-              Contact me
+              {t("heroButtonContact")}
               </Typography>
               </StyledButton>
             </Grid>
