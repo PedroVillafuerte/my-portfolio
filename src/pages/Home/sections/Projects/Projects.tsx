@@ -1,5 +1,6 @@
 import { Grid, styled, Typography } from "@mui/material"
 import placeHolder from "../../../../assets/images/placeHolder.png"
+import imgPortfolio from "../../../../assets/images/imgPortfolio.png"
 import Project from "../../../../components/Project/Project"
 import { useTranslation } from "react-i18next";
 
@@ -25,7 +26,7 @@ const Projects = () => {
           <Grid item xs={12} md={4} textAlign="center" border={1} borderColor={"white"} margin={5} padding={"16px"}>
             <Project 
             name={t("project1Tittle")}
-            image={placeHolder}
+            image={imgPortfolio}
             description={t("project1Text")}
             buttons={[
                 {label: t("projectsButtonViewProject"), link: 'https://pedrovillafuerte.vercel.app/'},
