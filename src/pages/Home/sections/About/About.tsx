@@ -1,5 +1,4 @@
 import { Container, Grid, styled, Typography } from "@mui/material"
-import SkillsButton from "../../../../components/SkillsButton/SkillsButton"
 import { useTranslation } from "react-i18next"
 import Skills from "../../../../components/Skills/Skills";
 import HTML5logo from "../../../../assets/images/Icons/html.png"
