@@ -41,7 +41,7 @@ const About = () => {
           </Grid>
           <Grid item xs={12} md={12} marginTop={5}>
           <Typography color="primary.contrastText" variant="h2" textAlign="center" pb={2}>{t("skillsTittle")}</Typography>
-          <Grid item xs={12} md={12} display="flex" justifyContent="center">
+          <Grid item xs={3} md={12} display="flex" justifyContent="center">
             <Skills logo={HTML5logo}>
               <Typography>
               HTML
@@ -62,8 +62,7 @@ const About = () => {
               React
               </Typography>
               </Skills>
-            </Grid>
-            <Grid item xs={12} md={12} display="flex" justifyContent="center">
+            
             <Skills logo={TypescriptLogo}>
               <Typography>
               Typescript
