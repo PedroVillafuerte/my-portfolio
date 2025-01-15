@@ -1,8 +1,9 @@
 import HTML5Logo from "../../assets/images/Icons/html.png"
+import CssLogo from "../../assets/images/Icons/css.png"
 
 const allSkills = [
     {nome:"HTML", logo: HTML5Logo},
-    {nome:"CSS", logo:"/src/assets/images/Icons/css.png"},
+    {nome:"CSS", logo: CssLogo},
     {nome:"Javascript", logo:"src/assets/images/Icons/javascript.png"},
     {nome:"React", logo:"src/assets/images/Icons/react.png"},
     {nome:"Tyepscript", logo:"src/assets/images/Icons/typescript.png"},
