@@ -2,7 +2,6 @@ import { Container, Grid2, styled, Typography } from "@mui/material"
 import { useTranslation } from "react-i18next"
 import Skills from "../../../../components/Skills/Skills";
 import allSkills from "../../../../components/Skills/AllSkills";
-import HTML5Logo from "../../../../assets/images/Icons/html.png"
 
 const About = () => {
 
