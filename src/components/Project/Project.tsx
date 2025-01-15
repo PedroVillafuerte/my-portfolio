@@ -21,6 +21,7 @@ const Project: React.FC<ProjectProps> = ({ name, image, description, buttons = [
 
   const StyledProject = styled('div')(({ theme }) => ({
     backgroundColor: theme.palette.primary.main,
+    
   }))
 
   const StyledImg = styled('img')(({}) => ({
@@ -43,7 +44,7 @@ const Project: React.FC<ProjectProps> = ({ name, image, description, buttons = [
 
         <Grid container display="flex" justifyContent="center" spacing={3} pt={3} alignContent={'end'}>
           {buttons.map((button, index) => (
-            <Grid item xs={6} md={3} key={index} display="flex">
+            <Grid item xs={6} md={4} key={index} display="flex">
               <StyledButton
                 onClick={() => {
                   const link = document.createElement('a')

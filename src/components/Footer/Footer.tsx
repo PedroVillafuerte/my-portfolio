@@ -25,7 +25,7 @@ const Footer = () => {
     <>
       <StyledFooter id="footer">
         <Container>
-          <Grid container display={'flex'} alignItems={'center'} justifyContent={'center'} textAlign={'center'} pb={2}>
+          <Grid container display={'flex'} alignItems={'center'} justifyContent={'center'} textAlign={'center'}>
             <Grid item xs={4} md={4}>
               <StyledLink href="https://www.linkedin.com/in/pedro-villafuerte-9bb7b5215/" target="_blank" rel="noopener noreferrer">
                 <LinkedInIcon />

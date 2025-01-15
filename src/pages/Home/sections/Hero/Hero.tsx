@@ -41,7 +41,7 @@ const Hero = () => {
         <Grid container spacing={2}>
           <Grid item xs={12} md={5}>
             <Box position="relative">
-              <Box position="absolute" width={"150%"} top={-100} right={0}>
+              <Box position="absolute" width={"150%"} top={-200} right={-100}>
                 <AnimatedBackground></AnimatedBackground>
               </Box>
               <Box position="relative" textAlign="center">
