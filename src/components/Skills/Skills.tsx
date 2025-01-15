@@ -4,7 +4,7 @@ import { ReactNode } from "react"
 
 interface SkillsButton{
     children: ReactNode
-    logo?: string
+    logo?: any
 }
 
 const StyledDiv: React.FC<SkillsButton> = ({ children, logo }) => {
