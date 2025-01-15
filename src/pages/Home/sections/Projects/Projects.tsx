@@ -1,6 +1,6 @@
 import { Grid, styled, Typography } from "@mui/material"
 import placeHolder from "../../../../assets/images/placeHolder.png"
-import imgPortfolio from "../../../../assets/images/imgPortfolio.png"
+import imgPortfolio from "../../../../assets/images/imgPortfolio2.png"
 import Project from "../../../../components/Project/Project"
 import { useTranslation } from "react-i18next";
 
@@ -21,7 +21,7 @@ const Projects = () => {
     return (
       <>
       <StyledProjects id="projects">
-      <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2} pt={2}>{t("projectsTittle")}</Typography>
+      <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={3} pt={3}>{t("projectsTittle")}</Typography>
       <Grid container spacing={2} display={"flex"} justifyContent={"center"}>
           <Grid item xs={12} md={4} textAlign="center" border={2} borderRadius={1} borderColor={"white"} margin={4} padding={"16px"}>
             <Project 
