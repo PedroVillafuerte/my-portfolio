@@ -1,5 +1,5 @@
 const allSkills = [
-    {nome:"HTML", logo:"../../../../assets/images/Icons/hmtl5Logo.png"},
+    {nome:"HTML", logo:"../../../../assets/images/Icons/html.png"},
     {nome:"CSS", logo:"src/assets/images/Icons/css.png"},
     {nome:"Javascript", logo:"src/assets/images/Icons/javascript.png"},
     {nome:"React", logo:"src/assets/images/Icons/react.png"},
