@@ -20,6 +20,7 @@ const StyledDiv: React.FC<SkillsButton> = ({ children, logo }) => {
         alignContent: "center",
         textAlign: "center",
         gap: "100px",
+        minWidth:"100px"
     }))
 
     const StyledImg = styled("img") (()=> ({
