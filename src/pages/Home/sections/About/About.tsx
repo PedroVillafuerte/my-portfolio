@@ -31,61 +31,59 @@ const About = () => {
   return (
     <>
     <StyledAbout id="about">
-    <Container maxWidth="lg">
+      <Container maxWidth="lg">
         <Grid container spacing={2} marginTop={5}>
           <Grid item xs={12} md={12} borderBottom={1} paddingBottom={10} color="primary.contrastText" >
-          <Typography color="primary.contrastText" variant="h2" textAlign="center" pb={2}>{t("aboutTittle")}</Typography>
-          <Typography color="primary.contrastText" variant="h5" textAlign="center">{t("aboutText")}</Typography>
-            
+            <Typography color="primary.contrastText" variant="h2" textAlign="center" pb={2}>{t("aboutTittle")}</Typography>
+            <Typography color="primary.contrastText" variant="h5" textAlign="center">{t("aboutText")}</Typography>
           </Grid>
           <Grid item xs={12} md={12} marginTop={5}>
-          <Typography color="primary.contrastText" variant="h2" textAlign="center" pb={2}>{t("skillsTittle")}</Typography>
-          <Grid item xs={3} md={12} display="flex" justifyContent="center">
-            <Skills logo={HTML5logo}>
-              <Typography>
-              HTML
-              </Typography>
+            <Typography color="primary.contrastText" variant="h2" textAlign="center" pb={2}>{t("skillsTittle")}</Typography>
+            <Grid item xs={3} md={12} display="flex" justifyContent="center">
+              <Skills logo={HTML5logo}>
+                <Typography>
+                HTML
+                </Typography>
               </Skills>
               <Skills logo={CssLogo} >
-              <Typography>
-              CSS
-              </Typography>
+                <Typography>
+                CSS
+                </Typography>
               </Skills>
               <Skills logo={JavascriptLogo}>
-              <Typography>
-              Javascript
-              </Typography>
+                <Typography>
+                Javascript
+                </Typography>
               </Skills>
               <Skills logo={ReactLogo} >
-              <Typography>
-              React
-              </Typography>
+                <Typography>
+                React
+                </Typography>
               </Skills>
-            
-            <Skills logo={TypescriptLogo}>
-              <Typography>
-              Typescript
-              </Typography>
+              <Skills logo={TypescriptLogo}>
+                <Typography>
+                Typescript
+                </Typography>
               </Skills>
               <Skills logo={GitLogo}>
-              <Typography>
-              Git
-              </Typography>
+                <Typography>
+                Git
+                </Typography>
               </Skills>
               <Skills logo={PythonLogo}>
-              <Typography>
-              Python
-              </Typography>
+                <Typography>
+                Python
+                </Typography>
               </Skills>
               <Skills logo={SeleniumLogo}>
-              <Typography>
-              Selenium
-              </Typography>
+                <Typography>
+                Selenium
+                </Typography>
               </Skills>
             </Grid>
           </Grid>
         </Grid>
-        </Container>
+      </Container>
     </StyledAbout>
       
     </>
