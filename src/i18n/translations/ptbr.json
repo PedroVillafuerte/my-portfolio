@@ -15,10 +15,6 @@
         "project1Tittle": "Portfólio",
         "project1Text": "Projeto feito usando React, biblioteca Material UI e a biblioteca i18n.",
         "project2Tittle": "CRUD",
-        "project2Text": "Projeto em construção",
-        "project3Tittle": "Projeto 3",
-        "project3Text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae cum accusantium inventore porro cupiditate natus atque tempore doloribus? Quae laudantium facere consequuntur ea aliquam reiciendis corrupti, ut maxime quam exercitationem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae cum accusantium inventore porro cupiditate natus atque tempore doloribus? Quae laudantium facere.",
-        "project4Tittle": "Projeto 4",
-        "project4Text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae cum accusantium inventore porro cupiditate natus atque tempore doloribus? Quae laudantium facere consequuntur ea aliquam reiciendis corrupti, ut maxime quam exercitationem."
+        "project2Text": "Projeto em construção"
     }
 }
