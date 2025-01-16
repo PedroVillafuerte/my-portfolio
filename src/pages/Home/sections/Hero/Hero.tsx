@@ -21,7 +21,7 @@ const Hero = () => {
         },
         [theme.breakpoints.up('md')]: {
           paddingTop: "0",
-          height: "100vh"
+          height: "97vh"
         }
     }))
 
