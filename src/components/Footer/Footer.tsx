@@ -1,4 +1,4 @@
-import { Container, Grid, styled, Typography } from '@mui/material'
+import { Container, Grid2, styled, Typography } from '@mui/material'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import EmailIcon from '@mui/icons-material/Email';
@@ -25,23 +25,23 @@ const Footer = () => {
     <>
       <StyledFooter id="footer">
         <Container>
-          <Grid container display={'flex'} alignItems={'center'} justifyContent={'center'} textAlign={'center'}>
-            <Grid item xs={4} md={4}>
+          <Grid2 container textAlign={'center'}>
+            <Grid2 size={{xs:4, md:4}}>
               <StyledLink href="https://www.linkedin.com/in/pedro-villafuerte-9bb7b5215/" target="_blank" rel="noopener noreferrer">
                 <LinkedInIcon />
               </StyledLink>
-            </Grid>
-            <Grid item xs={4} md={4}>
+            </Grid2>
+            <Grid2 size={{xs:4, md:4}}>
               <StyledLink href="https://github.com/PedroVillafuerte" target="_blank" rel="noopener noreferrer">
                 <GitHubIcon />
               </StyledLink>
-            </Grid>
-            <Grid item xs={4} md={4}>
+            </Grid2>
+            <Grid2 size={{xs:4, md:4}}>
               <StyledLink href="https://mail.google.com/mail/u/0/?fs=1&to=pedro.tvilla@gmail.com&body=Olá,&tf=cm" target="_blank" rel="noopener noreferrer">
                 <EmailIcon />
               </StyledLink>
-            </Grid>
-          </Grid>
+            </Grid2>
+          </Grid2>
           <Typography textAlign={'center'}>© 2024 Pedro Villafuerte - All rights reserved.</Typography>
         </Container>
       </StyledFooter>
