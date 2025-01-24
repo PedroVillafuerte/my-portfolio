@@ -24,9 +24,7 @@ export const LanguageSwitcher = () => {
             position: "relative",
           },
           [theme.breakpoints.up('md')]: {
-            position: "absolute",
-            top: "5px",
-            right: "5px",
+            position: "relative",
             }        
     }))
 

@@ -1,25 +1,39 @@
-import { AppBar, MenuItem, styled, Toolbar } from "@mui/material"
+import { AppBar, MenuItem, styled, Toolbar, Typography } from "@mui/material"
 import theme from "../../theme"
 import { LanguageSwitcher } from "../LanguageSwitcher/LanguageSwitcher"
 import { useTranslation } from "react-i18next";
+import PedroLogo from "../PedroLogo/PedroLogo";
 
 const NavBar = () => {
     const{t} = useTranslation();
 
-    const StyledToolbar = styled(Toolbar) (({})=> ({
+    const StyledToolbar = styled(Toolbar) (({theme})=> ({
         display: "flex",
-        justifyContent: "space-evenly",
-        backgroundColor: `${theme.palette.primary.dark}`
+        backgroundColor: `${theme.palette.primary.dark}`,
+        maxWidth:"100vw",
+        [theme.breakpoints.up('xs')]: {
+          justifyContent: "space-between",
+          fontSize: "0.1em",
+        },
+        [theme.breakpoints.up('md')]: {
+          justifyContent: "space-around",
+          } 
     }))
 
     const StyledA = styled('a') (({})=> ({
       textDecoration: 'none',
-  }))  
+  }))
+  
+    const StyledDiv = styled('div') (({})=> ({
+      display: "flex",
+  })) 
 
     return (
       <>
         <AppBar position="sticky">
             <StyledToolbar id="navbar">
+              <PedroLogo></PedroLogo>
+              <StyledDiv>
               <StyledA onClick={() => ScrollTo('hero')}>
                 <MenuItem>{t("navMain")}</MenuItem>
               </StyledA>
@@ -29,10 +43,10 @@ const NavBar = () => {
               <StyledA onClick={() => ScrollTo('projects')}>
                 <MenuItem>{t("navProjects")}</MenuItem>
               </StyledA>  
-              <LanguageSwitcher />             
+              <LanguageSwitcher />
+              </StyledDiv>       
+                           
             </StyledToolbar>
-            
-                 
         </AppBar>
       </>
     )
