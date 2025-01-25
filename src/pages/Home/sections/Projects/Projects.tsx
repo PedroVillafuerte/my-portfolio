@@ -1,6 +1,7 @@
 import { Grid, styled, Typography } from "@mui/material"
-import placeHolder from "../../../../assets/images/placeHolder.png"
 import imgPortfolio from "../../../../assets/images/imgPortfolio2.png"
+import imgRPABMG from "../../../../assets/images/imgRPAdoBMG.png"
+import imgAluraBooks from "../../../../assets/images/imgAluraBooks.png"
 import Project from "../../../../components/Project/Project"
 import { useTranslation } from "react-i18next";
 
@@ -39,11 +40,11 @@ const Projects = () => {
           <Grid item xs={12} md={4} textAlign="center" border={2} borderRadius={1} borderColor={"white"} margin={4} padding={"16px"}>
           <Project 
             name={t("project2Tittle")}
-            image={placeHolder}
+            image={imgAluraBooks}
             description={t("project2Text")}
             buttons={[
-                {label: t("projectsButtonViewProject"), link: 'https://www.google.com/'},
-                {label: t("projectsButtonViewCode"), link: 'https://github.com/'},
+                {label: t("projectsButtonViewProject"), link: 'https://pedrovillafuerte.vercel.app/'},
+                {label: t("projectsButtonViewCode"), link: 'https://github.com/PedroVillafuerte'},
             ]}
             >
             </Project>
@@ -52,11 +53,11 @@ const Projects = () => {
           <Grid item xs={12} md={4} textAlign="center" border={2} borderRadius={1} borderColor={"white"} margin={4} padding={"16px"}>
           <Project 
             name={t("project3Tittle")}
-            image={placeHolder}
+            image={imgRPABMG}
             description={t("project3Text")}
             buttons={[
-                {label: t("projectsButtonViewProject"), link: 'https://www.google.com/'},
-                {label: t("projectsButtonViewCode"), link: 'https://github.com/'},
+                {label: t("projectsButtonViewProject"), link: 'https://pedrovillafuerte.vercel.app/'},
+                {label: t("projectsButtonViewCode"), link: 'https://github.com/PedroVillafuerte'},
             ]}
             >
             </Project>
