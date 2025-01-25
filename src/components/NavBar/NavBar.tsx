@@ -1,5 +1,4 @@
-import { AppBar, MenuItem, styled, Toolbar, Typography } from "@mui/material"
-import theme from "../../theme"
+import { AppBar, MenuItem, styled, Toolbar } from "@mui/material"
 import { LanguageSwitcher } from "../LanguageSwitcher/LanguageSwitcher"
 import { useTranslation } from "react-i18next";
 import PedroLogo from "../PedroLogo/PedroLogo";
