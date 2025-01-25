@@ -17,6 +17,7 @@ const NavBar = () => {
         },
         [theme.breakpoints.up('md')]: {
           justifyContent: "space-around",
+          fontSize: "1em",
           } 
     }))
 

@@ -7,14 +7,16 @@
         "heroButtonDownload": "Baixar CV",
         "heroButtonContact": "Entre em contato",
         "aboutTitle": "Sobre mim",
-        "aboutText": "Olá! Meu nome é Pedro Teixeira Villafuerte sou estudante de programação. Ao longo da minha jornada acadêmica, tive a oportunidade de aprender diversas linguagens de programação, como Python, JavaScript e Java, além de me aprofundar em conceitos essenciais como algoritmos, estrutura de dados, banco de dados e desenvolvimento web.",
+        "aboutText": "Meu nome é Pedro Teixeira Villafuerte, sou estudante de Ciência da Computação e desenvolvedor front-end. Tenho alguns projetos usando HTML, CSS e Javascript, me aperfeiçoando cada vez mais com o React. Tenho um ano de experiência profissional como Analista de teste usando a ferramenta Selenium. Além disso, estou estudando e já tenho projeto Back-End usando o Node.",
         "skillsTitle": "Habilidades",
         "projectsTittle": "Projetos",
         "projectsButtonViewProject": "Ver Projeto",
         "projectsButtonViewCode": "Ver Código",
         "project1Tittle": "Portfólio",
-        "project1Text": "Projeto feito usando React, biblioteca Material UI e a biblioteca i18n.",
-        "project2Tittle": "CRUD",
-        "project2Text": "Projeto em construção"
+        "project1Text": "Primeiro projeto com React usando Vite e MaterialUI, ao longo do desenvolvimento foi adicionado a biblioteca i18n, para fazer a parte de mudança de lingua. O objetivo é ter um lugar para mostrar meus projetos e meus conhecimentos. O design foi inspirado em uma video aula que fez a primeira seção e o resto foi feito pesquisando.",
+        "project2Tittle": "AluraBook",
+        "project2Text": "Projeto feito seguindo aula na Alura. Principal objetivo foi estudar sobre CRUD(Create, Read, Update, Read). Com front-end usando React e o Back-end usando o Node. Junto do desenvolvimento aprendi a usar o postman para testar as requisições ao Back-end.",
+        "project3Tittle": "RPA BMG",
+        "project3Text": "Projeto de RPA(Automação de processo com robo) para o banco BMG. No github esta a lógica de programação sem os dados sensiveis. Foi usado Python e o Selenium. O fluxo da aplicação é ler dados de uma planilha Excell, fazer a navegação e salvar os dados."
     }
 }

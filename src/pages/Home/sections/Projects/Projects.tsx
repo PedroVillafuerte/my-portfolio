@@ -48,6 +48,19 @@ const Projects = () => {
             >
             </Project>
           </Grid>
+
+          <Grid item xs={12} md={4} textAlign="center" border={2} borderRadius={1} borderColor={"white"} margin={4} padding={"16px"}>
+          <Project 
+            name={t("project3Tittle")}
+            image={placeHolder}
+            description={t("project3Text")}
+            buttons={[
+                {label: t("projectsButtonViewProject"), link: 'https://www.google.com/'},
+                {label: t("projectsButtonViewCode"), link: 'https://github.com/'},
+            ]}
+            >
+            </Project>
+          </Grid>
         
         </Grid>
       </StyledProjects>

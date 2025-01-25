@@ -7,18 +7,16 @@
         "heroButtonDownload": "Download CV",
         "heroButtonContact": "Contact me",
         "aboutTitle": "About me",
-        "aboutText": "Hello! My name is Pedro Teixeira Villafuerte, and I am a programming student. Throughout my academic journey, I have had the opportunity to learn various programming languages, such as Python, JavaScript, and Java, as well as delve into essential concepts like algorithms, data structures, databases, and web development.",
+        "aboutText": "My name is Pedro Teixeira Villafuerte, I am a Computer Science student and front-end developer. I have some projects using HTML, CSS and Javascript, improving myself more and more with React. I have one year of professional experience as a Test Analyst using the Selenium tool. Furthermore, I am studying and already have a Back-End project using Node.",
         "skillsTitle": "Skills",
         "projectsTittle": "Projects",
         "projectsButtonViewProject": "View Project",
         "projectsButtonViewCode": "View Code",
         "project1Tittle": "Portfolio",
-        "project1Text": "Project made with React, Material UI library and i18n library.",
-        "project2Tittle": "CRUD",
-        "project2Text": "Project under development.",
-        "project3Tittle": "Project 3",
-        "project3Text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae cum accusantium inventore porro cupiditate natus atque tempore doloribus? Quae laudantium facere consequuntur ea aliquam reiciendis corrupti, ut maxime quam exercitationem.",
-        "project4Tittle": "Project 4",
-        "project4Text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae cum accusantium inventore porro cupiditate natus atque tempore doloribus? Quae laudantium facere consequuntur ea aliquam reiciendis corrupti, ut maxime quam exercitationem."
+        "project1Text": "First project with React using Vite and MaterialUI, throughout development the i18n library was added to do the language switcher. The goal is to have a place to showcase my projects and my knowledge. The design was inspired by a video lesson that made the first section and the rest was done by researching.",
+        "project2Tittle": "AluraBook",
+        "project2Text": "Project made following class at Alura. Main objective was to study CRUD (Create, Read, Update, Read). With front-end using React and back-end using Node. Along with development, I learned how to use postman to test requests to the Back-end.",
+        "project3Tittle": "RPA BMG",
+        "project3Text": "RPA project (Robot process automation) for BMG bank. On github is the programming logic without sensitive data. Python and Selenium were used. The application flow is to read data from an Excel spreadsheet, navigate and save the data."
     }
 }

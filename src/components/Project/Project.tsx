@@ -25,7 +25,7 @@ const Project: React.FC<ProjectProps> = ({ name, image, description, buttons = [
   }))
 
   const StyledImg = styled('img')(({}) => ({
-    width: '40%',
+    width: '55%',
     marginBottom: '10px',
   }))
   
@@ -38,7 +38,7 @@ const Project: React.FC<ProjectProps> = ({ name, image, description, buttons = [
 
         <StyledImg src={image} />
 
-        <Typography color="primary.contrastText" textAlign="center">
+        <Typography color="primary.contrastText" textAlign="justify">
           {description}
         </Typography>
 
