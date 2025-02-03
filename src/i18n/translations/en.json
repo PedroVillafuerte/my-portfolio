@@ -13,10 +13,10 @@
         "projectsButtonViewProject": "View Project",
         "projectsButtonViewCode": "View Code",
         "project1Tittle": "Portfolio",
-        "project1Text": "First project with React using Vite and MaterialUI, throughout development the i18n library was added to do the language switcher. The goal is to have a place to showcase my projects and my knowledge. The design was inspired by a video lesson that made the first section and the rest was done by researching.",
+        "project1Text": "First React project using Vite and MaterialUI. The ideal of this project was to have a place that brought together all my projects and knowledge. Throughout development, the i18n library was added to handle the language switching part. Despite not being a Design expert, I managed to start the first session through a video lesson and continued on my own.",
         "project2Tittle": "AluraBook",
-        "project2Text": "Project made following class at Alura. Main objective was to study CRUD (Create, Read, Update, Read). With front-end using React and back-end using Node. Along with development, I learned how to use postman to test requests to the Back-end.",
+        "project2Text": "Full stack project carried out following a course on the Alura platform. The main objective was to study CRUD (Create, Read, Update, Read). The front-end development was done with React and the back-end using Node. Throughout development, I learned how to use the postman tool to test HTTP requests.",
         "project3Tittle": "RPA BMG",
-        "project3Text": "RPA project (Robot process automation) for BMG bank. On github is the programming logic without sensitive data. Python and Selenium were used. The application flow is to read data from an Excel spreadsheet, navigate and save the data."
+        "project3Text": "RPA (Robot Process Automation) project for BMG bank. The programming logic is present on github, but without the sensitive data. Selenium and the Python language were used. The application flow is to read a spreadsheet, do a search, check information, save the necessary data and generate a log for each iteration."
     }
 }

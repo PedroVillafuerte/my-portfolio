@@ -7,16 +7,16 @@
         "heroButtonDownload": "Baixar CV",
         "heroButtonContact": "Entre em contato",
         "aboutTitle": "Sobre mim",
-        "aboutText": "Meu nome é Pedro Teixeira Villafuerte, sou estudante de Ciência da Computação e desenvolvedor front-end. Tenho alguns projetos usando HTML, CSS e Javascript, me aperfeiçoando cada vez mais com o React. Tenho um ano de experiência profissional como Analista de teste usando a ferramenta Selenium. Além disso, estou estudando e já tenho projeto Back-End usando o Node.",
+        "aboutText": "Meu nome é Pedro Teixeira Villafuerte, sou estudante de Ciência da Computação e desenvolvedor front-end. Possuo um ano de experiência profissional como Analista de Testes usando a ferramenta Selenium. No momento, estou me aperfeiçoando cada vez mais com o React., porém tenho projetos usando outras linguagens, tais como: HTML, CSS e Javascript. Além disso, estou me aprofundando no estudo e já possuo projeto com Back-End usando o Node.",
         "skillsTitle": "Habilidades",
         "projectsTittle": "Projetos",
         "projectsButtonViewProject": "Ver Projeto",
         "projectsButtonViewCode": "Ver Código",
         "project1Tittle": "Portfólio",
-        "project1Text": "Primeiro projeto com React usando Vite e MaterialUI, ao longo do desenvolvimento foi adicionado a biblioteca i18n, para fazer a parte de mudança de lingua. O objetivo é ter um lugar para mostrar meus projetos e meus conhecimentos. O design foi inspirado em uma video aula que fez a primeira seção e o resto foi feito pesquisando.",
+        "project1Text": "Primeiro projeto de React utilizando Vite e MaterialUI. O ideal deste projeto foi de ter um local que reunisse todos os meus projetos e conhecimentos. Ao longo do desenvolvimento foi adicionado a biblioteca i18n, para fazer a parte de mudança de língua. Apesar de não ser especialista em Design, consegui iniciar a primeira sessão através de uma video-aula e dei continuidade por conta própria.",
         "project2Tittle": "AluraBook",
-        "project2Text": "Projeto feito seguindo aula na Alura. Principal objetivo foi estudar sobre CRUD(Create, Read, Update, Read). Com front-end usando React e o Back-end usando o Node. Junto do desenvolvimento aprendi a usar o postman para testar as requisições ao Back-end.",
+        "project2Text": "Projeto Full stack feito seguindo um curso na plataforma Alura. O principal objetivo foi estudar sobre CRUD (Create, Read, Update, Read). O desenvolvimento do front-end foi feito com React e o Back-end usando o Node. Ao longo do desenvolvimento, aprendi a usar a ferramenta postman para testar requisições HTTP.",
         "project3Tittle": "RPA BMG",
-        "project3Text": "Projeto de RPA(Automação de processo com robo) para o banco BMG. No github esta a lógica de programação sem os dados sensiveis. Foi usado Python e o Selenium. O fluxo da aplicação é ler dados de uma planilha Excell, fazer a navegação e salvar os dados."
+        "project3Text": "Projeto de RPA (Automação de Processo com Robô) para o banco BMG. A lógica  de programação está presente no github, porém sem os dados sensíveis. Foi utilizado Selenium e a linguagem Python. O fluxo da aplicação é de ler uma planilha, fazer uma pesquisa, checar informações, salvar os dados necessarios e gerar um log para cada iteração."
     }
 }

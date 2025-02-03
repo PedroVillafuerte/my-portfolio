@@ -4,7 +4,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
-import resume from '../../../../assets/PedroCurriculo.pdf'
+import resume from '../../../../assets/Pedro_Teixeira_Villafuerte_Currículo.pdf'
 import { useTranslation } from "react-i18next";
 
 const Hero = () => {
