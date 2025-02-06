@@ -5,9 +5,10 @@ const PedroLogo = () => {
     const StyledLogo = styled("div") (({theme})=> ({
         display: "flex",
         [theme.breakpoints.up('xs')]: {
-            fontSize: "0.8em",
+            display:"none",
           },
           [theme.breakpoints.up('md')]: {
+            display:"flex",
             fontSize: "1.8em",
             } 
     }))

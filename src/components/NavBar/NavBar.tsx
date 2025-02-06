@@ -11,11 +11,11 @@ const NavBar = () => {
         backgroundColor: `${theme.palette.primary.dark}`,
         maxWidth:"100vw",
         [theme.breakpoints.up('xs')]: {
-          justifyContent: "space-between",
+          justifyContent: "center",
           fontSize: "0.1em",
         },
         [theme.breakpoints.up('md')]: {
-          justifyContent: "space-around",
+          justifyContent: "space-between",
           fontSize: "1em",
           } 
     }))
@@ -26,6 +26,7 @@ const NavBar = () => {
   
     const StyledDiv = styled('div') (({})=> ({
       display: "flex",
+      alignContent: "left"
   })) 
 
     return (
