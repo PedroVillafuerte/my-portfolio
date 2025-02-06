@@ -1,66 +1,28 @@
 import { useTranslation } from "react-i18next";
-import br from "../../assets/images/brasil.png";
-import us from "../../assets/images/estados-unidos.png"
-import { styled } from "@mui/material";
-
-const languageOptions = [
-    {
-        name: "Portugues",
-        value: "ptBR",
-        flag: br,
-    },
-    {
-        name: "English",
-        value: "en",
-        flag: us,
-    },
-]
+import { styled, Typography } from "@mui/material";
 
 export const LanguageSwitcher = () => {
-    const {i18n} = useTranslation();
-
-    const LanguageSwitcher= styled("div")(({ theme })=> ({
-        [theme.breakpoints.up('xs')]: {
-            position: "relative",
-          },
-          [theme.breakpoints.up('md')]: {
-            position: "relative",
-            }        
-    }))
-
-    const StyledImg = styled("img") (({ theme })=> ({
-        [theme.breakpoints.up('xs')]: {
-          height: "2em",
-        },
-        [theme.breakpoints.up('md')]: {
-            height: "2em",
-          }
-    }))
+    const {i18n, t} = useTranslation();
 
     const StyledButton = styled("button") (()=> ({
+        color: "white",
         cursor: "pointer",
         background: "none",
-        border: "none",
+        border: "1px solid white",
+        borderRadius: "3px",
+        padding: "3px 8px"
     }))
 
     return (
-        <LanguageSwitcher>
+        
         <div className="language-switcher">
-
-            {languageOptions.map(languageOptions => (
                 <StyledButton 
-                key={languageOptions.value}
-                onClick={() => {
-                    i18n.changeLanguage(languageOptions.value);
+                    onClick={() => {
+                    i18n.changeLanguage(t('oppositeLanguage'));
                 }}>
-                    <StyledImg src={languageOptions.flag} style={{
-                        height:
-                            i18n.language === languageOptions.value ? "2.5em" : "2em",
-                    }} />
+                    <Typography variant="h6">{t('oppositeLanguage').toUpperCase()}</Typography>
                 </StyledButton>
-               
-            ))}
         </div>
-        </LanguageSwitcher>
+        
     )
 }
