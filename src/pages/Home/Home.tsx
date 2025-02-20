@@ -4,20 +4,17 @@ import About from "./sections/About/About"
 import Hero from "./sections/Hero/Hero"
 import Projects from "./sections/Projects/Projects"
 
-
 const Home = () => {
-  
 
-    return (
-      <>
-      <NavBar></NavBar>
-        <Hero />
-        <About/>
-        <Projects/>
-        <Footer/>
-      </>
-    )
-  }
-  
-  export default Home
-  
+  return (
+    <>
+      <NavBar/>
+      <Hero />
+      <About />
+      <Projects />
+      <Footer />
+    </>
+  )
+}
+
+export default Home

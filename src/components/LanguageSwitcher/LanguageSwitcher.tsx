@@ -20,7 +20,7 @@ export const LanguageSwitcher = () => {
                     onClick={() => {
                     i18n.changeLanguage(t('oppositeLanguage'));
                 }}>
-                    <Typography variant="h6">{t('oppositeLanguage').toUpperCase()}</Typography>
+                    <Typography>{t('oppositeLanguage').toUpperCase()}</Typography>
                 </StyledButton>
         </div>
         

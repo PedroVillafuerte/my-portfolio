@@ -2,15 +2,10 @@ import { styled } from "@mui/material"
 
 const PedroLogo = () => {
 
-    const StyledLogo = styled("div") (({theme})=> ({
+    const StyledLogo = styled("div") (()=> ({
         display: "flex",
-        [theme.breakpoints.up('xs')]: {
-            display:"none",
-          },
-          [theme.breakpoints.up('md')]: {
-            display:"flex",
-            fontSize: "1.8em",
-            } 
+        fontSize: "1.8em",
+        
     }))
 
 
