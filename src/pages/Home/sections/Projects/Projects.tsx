@@ -56,8 +56,8 @@ const Projects = () => {
             image={imgRPABMG}
             description={t("project3Text")}
             buttons={[
-                {label: t("projectsButtonViewProject"), link: 'https://pedrovillafuerte.vercel.app/'},
-                {label: t("projectsButtonViewCode"), link: 'https://github.com/PedroVillafuerte'},
+                {label: t("projectsButtonViewCode"), link: 'https://github.com/PedroVillafuerte/RobotProcessAutomation-BMG'},
+                {label: t("projectsButtonViewCode"), link: 'https://github.com/PedroVillafuerte/RobotProcessAutomation-BMG'},
             ]}
             >
             </Project>

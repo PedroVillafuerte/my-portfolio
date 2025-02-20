@@ -124,10 +124,10 @@ const NavBar = ({ }) => {
               <LanguageSwitcher />
               <Box width="50vw" textAlign="center" display='flex' justifyContent="space-evenly">
                 <StyledLink href="https://www.linkedin.com/in/pedro-villafuerte-9bb7b5215/" target="_blank" rel="noopener noreferrer">
-                  <LinkedInIcon fontSize="5rem"/>
+                  <LinkedInIcon fontSize="large"/>
                 </StyledLink>
                 <StyledLink href="https://github.com/PedroVillafuerte" target="_blank" rel="noopener noreferrer">
-                  <GitHubIcon fontSize="5rem"/>
+                  <GitHubIcon fontSize="large"/>
                 </StyledLink>
               </Box>
 
