@@ -20,6 +20,9 @@ const NavBar = ({ }) => {
     maxWidth: "100vw",
     justifyContent: "space-between",
     fontSize: "1em",
+    [theme.breakpoints.up('xs')]: {
+      padding: "0px 10px",
+    },
   }))
 
   const StyledA = styled('a')(({ }) => ({
@@ -51,8 +54,8 @@ const NavBar = ({ }) => {
   const StyledLink = styled('a')(({ theme }) => ({
     color: theme.palette.primary.contrastText,
     textDecoration: 'none',
-    height:"100%",
-    fontSize:"3rem",
+    height: "100%",
+    fontSize: "3rem",
     '&:hover': {
       cursor: 'pointer',
     },
@@ -97,11 +100,9 @@ const NavBar = ({ }) => {
       {mobileMenu && (
         <>
           <StyledDivMobile>
-
             <StyledClose onClick={() => setmobileMenu(false)}>
               <CloseIcon />
             </StyledClose>
-
             <Box display="flex" alignItems="center" justifyContent="center" flexDirection="column" gap="4rem" fontSize="1.8rem">
               <StyledA onClick={() => {
                 setmobileMenu(false)
@@ -124,13 +125,12 @@ const NavBar = ({ }) => {
               <LanguageSwitcher />
               <Box width="50vw" textAlign="center" display='flex' justifyContent="space-evenly">
                 <StyledLink href="https://www.linkedin.com/in/pedro-villafuerte-9bb7b5215/" target="_blank" rel="noopener noreferrer">
-                  <LinkedInIcon fontSize="large"/>
+                  <LinkedInIcon fontSize="large" />
                 </StyledLink>
                 <StyledLink href="https://github.com/PedroVillafuerte" target="_blank" rel="noopener noreferrer">
-                  <GitHubIcon fontSize="large"/>
+                  <GitHubIcon fontSize="large" />
                 </StyledLink>
               </Box>
-
             </Box>
           </StyledDivMobile>
         </>

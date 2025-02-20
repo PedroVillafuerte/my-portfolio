@@ -2,16 +2,18 @@ import { styled } from "@mui/material"
 
 const PedroLogo = () => {
 
-    const StyledLogo = styled("div") (()=> ({
+    const StyledLogo = styled("div") (({theme})=> ({
         display: "flex",
         fontSize: "1.8em",
-        
+        [theme.breakpoints.up('xs')]: {
+            fontSize: "1.3em",
+          },
     }))
 
 
     const StyledPedro = styled("div") (({theme})=> ({
         color: `${theme.palette.primary.contrastText}`,
-        paddingRight: 3,        
+        paddingRight: 3,
     }))
 
     const StyledVillafuerte = styled("div") (({ theme })=> ({
